@@ -1,0 +1,161 @@
+.header-login {
+  background-color: rebeccapurple;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+
+.login-section{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.login {
+  width: 25%;
+  margin: 0px auto;
+  background-color: rgb(154, 175, 193);
+  height: 620px;
+  border-radius: 8px;
+
+}
+
+.login-text {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.input-from {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.input-from {
+  position: relative;
+}
+.useri {
+  position: absolute;
+  left: 32px;
+  top: 51px;
+  color: gray;
+}
+
+.lock {
+  left: 32px;
+  bottom: 10px;
+  color: gray;
+  position: absolute;
+}
+
+.input {
+  height: 35px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 0px 22px;
+}
+
+.name-login {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.forgot {
+  text-align: end;
+  padding-right: 30px;
+  font-size: 14px;
+  color: grey;
+  cursor: pointer;
+}
+
+.login-btn {
+  text-align: center;
+  border-color: none;
+}
+.btn {
+  width: 90%;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(47, 140, 173);
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.sign {
+  text-align: center;
+  padding-top: 30px;
+  color: gray;
+  font-size: 14px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.fb {
+  margin-right: 10px;
+  padding: 14px 16px 12px 16px;
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.twitter {
+  margin-right: 10px;
+  padding: 13px 13px 13px 13px;
+  color: white;
+  background-color: skyblue;
+  border-radius: 50%;
+}
+
+.google {
+  margin-right: 10px;
+  padding: 12px 12px 12px 12px;
+  color: white;
+  background-color: red;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.signusing {
+  font-size: 14px;
+  color: gray;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.singup {
+  color: gray;
+  padding-top: 50px;
+  text-align: center;
+}
+
+@media  screen and (max-width: 500px) {
+
+    .header-login{
+        background-color: none;
+        height: 160vh !important;
+    }
+
+  .login {
+    width: 80% !important;
+    
+    
+  }
+}
+
+
+@media screen  and (min-width:768px) and (max-width:1024px){
+  .login{
+    width: 50%;
+  }
+
+  
+}

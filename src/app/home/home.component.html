@@ -1,0 +1,62 @@
+<div class="header">
+    <div class="header-forms">
+        <div class="container">
+           <div class="row">
+            
+             <div class="col-md-12">
+                
+                <form [formGroup]="loginForm" (ngSubmit)="loginUser()" >
+                    
+                    <h1 class="text-login">Login</h1>
+
+                    <div class="name-header">
+                        <label for="">Name</label>
+                    </div>
+
+                    <div class="input-form">
+                        <input class="input" type="text" placeholder="Enter your name" name="username" formControlName="username">
+                    </div>
+                    <span *ngIf="user && user.invalid && user.touched" class="textcolor">This name is not valid</span>
+
+                    <div>
+                        <label for="">Email</label>
+                    </div>
+
+                    <div class="input-form">
+                        <input class="input" type="email" name="email"  placeholder="Enter your email" formControlName="email">
+                    </div>
+                    <span *ngIf="emailValid && emailValid.invalid && emailValid.touched" class="textcolor">This email is not valid</span>
+
+ 
+                    <div>
+                        <label for="">Number</label>
+                    </div>
+                    <div>
+                        <input class="input" type="text" name="number" placeholder="Enter your name" formControlName="number">
+                    </div>
+
+                    <span *ngIf="numberValid && numberValid.invalid && numberValid.touched" class="textcolor" >This number is not valid</span>
+
+                    
+                    <div>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="input-form">
+                        <input class="input" type="password" name="password" formControlName="password">
+                    </div>
+
+                    <span *ngIf="passwordValid && passwordValid.invalid && passwordValid.touched" class="textcolor" >This password is not valid</span>
+
+
+                    
+                  <div class="button">
+                    <button [disabled]="loginForm.invalid" class="btn">Sumbit</button>
+                  </div>
+
+                    
+                </form>
+             </div>
+           </div>
+        </div>
+    </div>
+</div>

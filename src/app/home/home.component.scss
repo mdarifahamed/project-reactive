@@ -1,0 +1,70 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding: 20px 0px ;
+}
+.header-forms{
+    width: 35%;
+    height: 100%;
+    margin: 0px auto;
+    background-color:gainsboro;
+    border-radius:5px;
+
+}
+
+
+.text-login{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+
+}
+.input{
+    width: 100%;
+    height: 40px;
+    padding: 2px 5px 0px 5px ;
+    
+
+    
+
+}
+
+
+
+.button{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.btn{
+    color: white;
+    font-size: 600px;
+    font-size: 20px;
+    background-color: rgb(44, 184, 44);
+    
+}
+
+.textcolor{
+    color: red;
+}
+
+.name-header{
+    padding-top: 10px;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+    .header-forms{
+        width: 90%;
+    }
+}
+
+
+@media screen  and (min-width:768px) {
+    .header-forms{
+        width: 35%
+    }
+}
+

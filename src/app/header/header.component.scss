@@ -1,0 +1,144 @@
+// .nav{
+
+//     display: flex;
+//     justify-content: right;
+//     background-color: #1A2e22;
+//     margin:auto;
+//     padding: 0;
+// }
+
+// .nav .goldsikka-img{
+//     width: 100%;
+// }
+
+// .nav ul{
+//     display: inline-flex;
+//     list-style-type: none;
+//     margin-right: 2%;
+//     padding: 0;
+// }
+
+// .nav li{
+//     padding-left: 25px;
+//     padding-top: 5px;
+//     align-items: center;
+
+// }
+
+// .home1{
+//     justify-content: space-between;
+
+// }
+
+// .nav li a{
+//     text-decoration: none;
+//     color: aliceblue;
+//     justify-content: space-between;
+// }
+
+// @media screen and (max-width:500px) {
+//     // .nav{
+//     //     width: 100%;
+//     //     justify-content: left;
+//     // }
+//     // .goldsikka-img img{
+//     //     height: 30px;
+//     // }
+//     // .nav ul li {
+//     //     display: block;
+//     //     margin-right: 0;
+//     //     margin-bottom: 10px;
+//     // }
+
+// }
+
+// @media screen and (max-width:500px) and (min-width:375px){
+
+//     .nav{
+//         justify-content: start;
+//         display: block !important;
+
+//     }
+//     // .kojoo li{
+//     //     display: inline;
+//     //     display: flex;
+//     // }
+//     .goldsikka-img img{
+//         width: 125px;
+//         height: 66px;
+//         text-align: center;
+
+//     }
+// }
+
+// .nav{
+//     width: 100%;
+//     height: 70px;
+//     background-color:#1A2e22;
+
+// }
+
+// .img-gold{
+//     width: 100%;
+//     height: 30px;
+
+// }
+
+// .linked{
+//     display: flex;
+//     justify-content: space-between !important;
+
+// }
+
+// .home li{
+
+//     justify-content: space-between;
+// }
+
+// .home a {
+//     text-decoration: none;
+//     color: white;
+
+// }
+
+.nav-header {
+  background-color: rgb(47, 82, 47);
+  height: 70px;
+}
+
+.text-login {
+  display: flex;
+  justify-content: space-between !important;
+  padding: 20px;
+}
+.home-text a {
+  text-decoration: none;
+}
+
+.text-signup {
+  display: flex;
+  justify-content: space-between !important;
+  padding-top: 20px;
+  padding-right: 80px;
+}
+
+.router {
+  text-decoration: none;
+  color: white;
+}
+
+.router-home {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+    .nav-header{
+        height: 122px;
+
+    }
+  
+}
+

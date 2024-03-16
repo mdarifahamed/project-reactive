@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-signup{
+    background-color: blueviolet;
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.signup{
+    width: 30%;
+    background-color:white;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+   
+}
+
+.account{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+// .from{
+//     display: flex;
+//     flex-direction: column;
+//     padding: 0px 20px 0px 20px;
+    
+// }
+
+.input{
+    width: 100%;
+    // padding: 5px 16px;
+    height: 40px;
+}
+
+.text{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-singup{
+    // text-align: center;
+    padding-top: 20px;
+}
+
+.btnnnnnn{
+    height: 40px;
+    width: 100%;
+    // padding:0px 165px;
+    background-color:rgb(137, 14, 137);
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btnnnnnn:hover{
+    background-color: blue;
+
+}
+
+.para1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.login-text{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+    .signup{
+        width: 90%;
+        height: 550px;
+    }
+  
+}
+
+@media screen  and (min-width:768px) and (max-width:1024px){
+    .signup{
+        width: 50%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
